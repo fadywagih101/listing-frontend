@@ -7,6 +7,7 @@ RUN npm install
 
 COPY . .
 
+# Add this line to generate the .next/ directory
 RUN npm run build
 
 EXPOSE 3000
